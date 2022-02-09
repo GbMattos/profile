@@ -1,0 +1,89 @@
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 19%, rgba(0,194,255,1) 73%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: large;
+  background-position: 100%;
+}
+
+.card {
+  text-align: center;
+  background: aliceblue;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 50%;
+  margin: 10px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+ul {
+  padding: 0px;
+}
+
+.btn {
+  background-color: #0378C9;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.card:hover {
+  transform: perspective(10px);
+}
+
+.btn:hover {
+  background-color: #00C2FF;
+}
+
+.list {
+  list-style: none;
+}
+
+.icon {
+  margin: 0 auto;
+  padding: 20px;
+  display: inline;
+}
+
+.link {
+  font-size: 75px;
+  color: #0378C9;
+}
+
+.link:hover {
+  color: #00C2FF;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  margin: 0 auto;
+}
